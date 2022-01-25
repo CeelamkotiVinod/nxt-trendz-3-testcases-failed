@@ -1,0 +1,108 @@
+/* Write your CSS code here */
+.home-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
+  padding-bottom: 50px;
+  width: 90%;
+  max-width: 1110px;
+  margin: auto;
+}
+
+@media screen and (min-width: 768px) {
+  .home-container {
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 50px;
+  }
+}
+.content-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .content-container {
+    align-items: flex-start;
+  }
+}
+.caption {
+  font-size: 36px;
+  font-family: 'Roboto';
+  font-weight: bold;
+  color: #1e293b;
+  text-align: center;
+  margin-top: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .caption {
+    text-align: left;
+    font-size: 46px;
+  }
+}
+
+.clothes-image {
+  width: 200px;
+}
+
+@media screen and (min-width: 768px) {
+  .clothes-image {
+    display: none;
+  }
+}
+
+.description {
+  font-family: 'Roboto';
+  font-size: 14px;
+  color: #64748b;
+  line-height: 28px;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .description {
+    text-align: left;
+    font-size: 14px;
+  }
+}
+
+.shop-now-button {
+  background-color: #0967d2;
+  font-family: 'Roboto';
+  font-size: 12px;
+  color: #e2e8f0;
+  padding-left: 64px;
+  padding-right: 64px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border: none;
+  border-radius: 6px;
+  margin-top: 12px;
+  cursor: pointer;
+  outline: none;
+}
+
+@media screen and (min-width: 768px) {
+  .shop-now-button {
+    font-size: 14px;
+    padding-left: 26px;
+    padding-right: 26px;
+  }
+}
+
+.clothes-image-lg {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .clothes-image-lg {
+    display: flex;
+    width: 50%;
+    max-width: 450px;
+    margin-left: 85px;
+  }
+}
